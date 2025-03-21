@@ -2,124 +2,88 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Portfolio</title>
-   
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Portfolio</title>
+    <!-- Bootstrap CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
 </head>
 <body>
-
-    <header>
-        <h1><u><center>Giyyar Divyamshu Raghavendra</center></u></h1>
-        <p>Web Developer | Programmer | Learner</p>
-    </header>
-
-    <nav>
-        <a href="#introduction">About Me</a>
-        &nbsp;
-        <a href="#skills">Skills</a>
-        &nbsp;
-        <a href="#projects">Projects</a>
-        &nbsp;
-        <a href="#feedback">Feedback</a>
-        &nbsp;
-        <a href="#education">Education</a>
-        &nbsp;
-        <a href="#contact">Contact</a>
-    </nav>
-
-    <hr>
-
-    <section id="introduction">
-        <h2>Self Introduction</h2>
-        <p>
-            Hello! I'm Divyamshu Raghavendra, a passionate web developer who loves turning ideas into beautiful, functional, and user-friendly websites! 
-            With a strong coding foundation and a creative mindset, I find joy in solving complex problems and bringing digital experiences to life. 
-            Every project is an exciting challenge, and I'm always eager to learn, innovate, and push boundaries to craft something truly impactful.
-        </p>
-    </section>
-
-    <hr>
-
-
-    <section id="skills">
-        <h2>Skills</h2>
-        <ul>
-            <li>HTML5, CSS, JavaScript (Frontend Development)</li>
-            <li>React.js, Vue.js</li>
-            <li>Node.js, Express (Backend Development)</li>
-            <li>Database Management (MySQL, MongoDB)</li>
-            <li>Version Control (Git/GitHub)</li>
-        </ul>
-    </section>
-
-    <hr>
-
-    <section id="projects">
-        <h2>Projects & Work Experience</h2>
-        <ul>
-            <li>
-                <strong>Portfolio Website</strong><br>
-                <ul>
-                    <li>Developed a web application for Showcase skills, and projects, and created an online presence for job
-                        opportunities</li>
-                    <li>Developed a full-stack e-commerce site with user authentication, cart functionality, and a payment gateway.</li>
-                </ul> 
-                <a href="https://github.com/your-username/portfolio" target="_blank">GitHub Link</a>
-            </li>
-            <li>
-                <strong>visitor management system</strong><br>
-                <ul>
-                    <li>Developed a web application for face recognition and vehicle number plate detection</li>
-                    <li>a digital solution that streamlines the process of registering, tracking, and managing visitors in various
-                        facilities, such as office buildings, residential complexes, and event venues</li>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">My Portfolio</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a class="nav-link" href="#about">About Me</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#feedback">Feedback</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
                 </ul>
-                <a href="https://github.com/your-username/e-commerce-app" target="_blank">GitHub Link</a>
-            </li>
-        </ul>
-    </section>
-
-    <hr>
-
-    <section id="feedback">
-        <h2>Feedback & Achievements</h2>
-        <ul>
-            <li>Awarded for Outstanding Innovation in developing the New API App, recognized for its efficiency and impact.</li>
-            <li>Participated in various cultural events and competitions showcasing vocal talent..</li>
-        </ul>
-    </section>
-
-    <hr>
-
-    <section id="education">
-        <h2>Education Profile</h2>
-        <ul>
-            <li>
-                <strong>Bachelor of Technology in Computer Science</strong><br>
-                KMIT - Graduating By 2026<br>
-            </li>
-            <li>
-                <strong>Schooling</strong><br>
-                Kendriya Vidhyalaya - Graduated 2020<br>
-            </li>
-        </ul>
-    </section>
-
-    <hr>
-
-    <section id="contact">
-        <h2>Contact Information</h2>
-        <ul>
-            <li>Email: <a href="mailto:abc@gmail.com">divyamshu@example.com</a></li>
-            <li>Phone: +91-9876543210</li>
-            <li>GitHub: <a href="https://github.com/Divyamshu26" target="_blank">github</a></li>
-            <li>LinkedIn: <a href="https://www.linkedin.com/in/divyamshu-raghavendra-giyyar/" target="_blank">linkedin</a></li>
-        </ul>
-    </section>
-    <hr>
-
-    <footer>
-        &copy; 2025 Giyyar Divyamshu Raghavendra &hearts;. Visit my <a href="https://github.com/Divyamshu26" target="_blank">GitHub</a>.
-    </footer>
-
+            </div>
+        </div>
+    </nav>
+    
+    <div class="container mt-5">
+        <section id="about">
+            <h2>About Me</h2>
+            <p> Computer Science student skilled in C/C++, Python, Java and full-stack web development. expertise
+                in React, Node.js, and Bootstrap. Completed Web Development and Backend using JavaScript,Node,
+                and Express. Strong foundation in algorithms, data structures, and software development. Accomplished
+                projects include a showcase portfolio, a collaborative project platform, and a secure visitor management
+                system for face recognition and vehicle number plate detection
+            </p>
+        </section>
+        
+        <section id="skills" class="mt-4">
+            <h2>Skills</h2>
+            <ul class="list-group">
+                <li class="list-group-item">HTML</li>
+                <li class="list-group-item">CSS</li>
+                <li class="list-group-item">JavaScript</li>
+                <li class="list-group-item">React</li>
+            </ul>
+        </section>
+        
+        <section id="projects" class="mt-4">
+            <h2>Projects</h2>
+            <p> <b>Portfolio :</b> <br>
+                • Developed a web application for Showcase skills, and projects, and created an online presence for job <br>
+                • Enhanced technical skills, improved design, and demonstrated project management proficiency <br>
+                <b>visitor management system :</b> <br>
+                • Developed a web application for face recognition and vehicle number plate detection. <br>
+                • a digital solution that streamlines the process of registering, tracking, and managing visitors in various
+                facilities, such as office buildings, residential complexes, and event venues
+            </p>
+        </section>
+        
+        <section id="feedback" class="mt-4">
+            <h2>Feedback</h2>
+            <form>
+                <div class="mb-3">
+                    <label for="name" class="form-label">Name</label>
+                    <input type="text" class="form-control" id="name" placeholder="Enter your name">
+                </div>
+                <div class="mb-3">
+                    <label for="email" class="form-label">Email</label>
+                    <input type="email" class="form-control" id="email" placeholder="Enter your email">
+                </div>
+                <div class="mb-3">
+                    <label for="message" class="form-label">Feedback</label>
+                    <textarea class="form-control" id="message" rows="3" placeholder="Your feedback"></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Submit</button>
+            </form>
+        </section>
+        
+        <section id="contact" class="mt-4">
+            <h2>Contact</h2>
+            <p>Email: divyamshu.raghavendra@gmail.com</p>
+        </section>
+    </div>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
